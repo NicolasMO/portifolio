@@ -1,0 +1,52 @@
+.container-about {
+    margin: 20vh 15vw;
+
+    text-align: center;
+    margin-bottom: 1000px;
+}
+
+#info > div > img {
+    width: 200px;
+    height: 200px;
+}
+
+#info p {
+    color: rgb(199, 125, 255);
+    font-size: 30px;
+    margin: 60px 5vw;
+    padding-bottom: 100px;
+}
+
+#info h1 {
+    color: rgb(125, 38, 190);
+    font-size: 50px;
+    font-weight: 500;
+}
+
+#grid-icons {
+    display: grid;
+    justify-content: center;
+    gap: 30px;
+    grid-template-columns: repeat(3, 170px);
+    margin-top: 40px;
+    margin-inline: 25px;
+}
+
+.tecIcons {
+    border: 4px solid rgb(207, 172, 233);
+    border-radius: 10px;
+    width: 170px;
+    padding: 20px 35px;
+}
+
+.card {
+    background-color: rgb(40, 26, 48);
+    border-radius: 30px;
+    padding-block: 20px;
+}
+
+.teste {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
