@@ -15,41 +15,53 @@
     margin-top: 7vh;
 }
 
+.textWrapper {
+  min-height: 300px;
+}
+
+/* CSS de paragrafo e enfase inserido com o TypeWriter */
 .introLeft p {
-    color: rgb(199, 125, 255);
+    color: var(--primary-color);
     font-size: 30px;
+}
+
+.introLeft p:nth-of-type(2) {
+    margin-top: 15px;
+    font-size: 25px;
 }
 
 .introLeft em {
     font-style: normal;
-    color: rgb(125, 38, 190);
+    color: var(--secondary-color);
     font-size: 50px;
     font-weight: bold;
     text-transform: uppercase;
 }
+/***/
 
 .moreInfo {
-    background-color: rgb(45, 27, 51);
+    background-color: var(--button-background);
     color: white;
     font-size: 22px;
-    margin-top: 15vh;
+    margin-top: 8vh;
     padding: 10px 20px;
     border-radius: 18px;
     border: none;
     cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 .moreInfo:hover {
-    background-color: rgb(125, 38, 190);
+    background-color: var(--button-hover);
 }
 
 .moreInfo:active {
-    background-color: rgb(93, 62, 104);
+    background-color: var(--button-active);
 }
 
 .socialMedia {
-  display: flex;
-  margin-top: 20px;
+    display: flex;
+    margin-top: -50px;
 }
 
 .socialIcon {
@@ -58,3 +70,4 @@
     margin-right: 30px;
     cursor: pointer;
 }
+

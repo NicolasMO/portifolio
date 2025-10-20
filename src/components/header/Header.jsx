@@ -12,7 +12,7 @@ function Header() {
                         <ul>
                             <li><button className={styles.menuButton} onClick={() => document.getElementById('header-name').scrollIntoView({behavior: 'smooth'})}>home</button></li>
                             <li><button className={styles.menuButton} onClick={() => document.getElementById('about').scrollIntoView({behavior: 'smooth'})}>sobre</button></li>
-                            <li>portífolio</li>
+                            <li>portfólio</li>
                             <li>serviços</li>
                             <li>resumo</li>
                             <li>contato</li>

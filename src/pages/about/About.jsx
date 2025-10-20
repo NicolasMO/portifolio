@@ -6,7 +6,7 @@ function About() {
             <section id="about" className={styles.container}>
                 <img className={styles.infoImg} src="src\assets\imagem.jpg" alt="Foto minha"/>
                 <p className={styles.infoText}>Me chamo Nícolas, moro em Fortaleza/CE. Formado em Análise e Desenvolvimento de Sistemas, estudo desenvolvimento fullstack, com foco em Java e Javascript.</p>
-                <div className={styles.teste}>
+                <div className={styles.grid}>
                     <div className={styles.card}>
                         <h2 className={styles.infoTitle}>Tecnologias</h2>
                         <div className={styles.gridIcons}>
@@ -21,7 +21,7 @@ function About() {
                     </div>
 
                     <div className={styles.card}>
-                        <h2 className={styles.infoTitle}>Extras</h2>
+                        <h2 className={styles.infoTitle}>Ferramentas</h2>
                         <div className={styles.gridIcons}>
                             <img className={styles.tecIcons} src="src\assets\gitIcon.png" alt="icone do Git"/>
                             <img className={styles.tecIcons} src="src\assets\postmanIcon.png" alt="icone do Postman"/>

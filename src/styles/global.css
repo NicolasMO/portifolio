@@ -1,13 +1,32 @@
 :root {
     --background-color: rgb(20, 12, 22);
+    --primary-color: rgb(199, 125, 255);
+    --secondary-color: rgb(125, 38, 190);
+
+    --card-background: rgb(40, 26, 48);
+
+    --icon-border-color: rgb(207, 172, 233);
+
+    --button-background: rgb(45, 27, 51);
+    --button-hover: rgb(125, 38, 190);
+    --button-active: rgb(93, 62, 104);
+
+    --font-family: 'Inter', sans-serif;
 }
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
+    font-family: var(--font-family);
 }
 
 body {
     background-color: var(--background-color);
+    color: var(--primary-color);
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
 }

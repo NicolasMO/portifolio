@@ -1,21 +1,9 @@
 .header {
-    color: rgb(199, 125, 255);
+    color: var(--primary-color);
     display: flex;
-    flex-direction : row;
+    flex-direction: row;
     align-items: center;
     height: 25vh;
-}
-
-.menuButton {
-    font-size: 20px;
-    background-color: transparent;
-    border: none;
-    color: rgb(199, 125, 255);
-    cursor: pointer;
-}
-
-.menuButton:hover {
-    color: rgb(125, 38, 190);
 }
 
 .headerName {
@@ -27,6 +15,19 @@
 .headerName p {
     text-align: center;
     margin-left: 70px;
+}
+
+.menuButton {
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    color: var(--primary-color);
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.menuButton:hover {
+    color: var(--secondary-color);
 }
 
 .nav {
