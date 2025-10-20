@@ -1,6 +1,6 @@
-import Header from '../components/header/Header'
-import Home from './home/Home'
-import About from './about/About'
+import Header from './components/header/Header'
+import Home from './pages/home/Home'
+import About from './pages/about/About'
 
 function App() {
     return (

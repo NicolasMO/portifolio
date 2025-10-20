@@ -1,17 +1,17 @@
-import './Header.css';
+import styles from './Header.module.css';
 
 function Header() {
     return (
         <>
-            <header>
-                <div id="header-name">
+            <header className={styles.header}>
+                <div id="header-name" className={styles.headerName}>
                     <p>Nícolas Martins</p>
                 </div>
-                <div class="nav">
-                    <nav id="nav-menu">
+                <div className={styles.nav}>
+                    <nav className={styles.navMenu}>
                         <ul>
-                            <li><button class="menu-button" onClick={() => document.getElementById('header-name').scrollIntoView({behavior: 'smooth'})}>home</button></li>
-                            <li><button class="menu-button" onClick={() => document.getElementById('about').scrollIntoView({behavior: 'smooth'})}>sobre</button></li>
+                            <li><button className={styles.menuButton} onClick={() => document.getElementById('header-name').scrollIntoView({behavior: 'smooth'})}>home</button></li>
+                            <li><button className={styles.menuButton} onClick={() => document.getElementById('about').scrollIntoView({behavior: 'smooth'})}>sobre</button></li>
                             <li>portífolio</li>
                             <li>serviços</li>
                             <li>resumo</li>
