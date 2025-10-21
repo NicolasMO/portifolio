@@ -5,7 +5,7 @@ function Portfolio() {
     return (
         <>
             <section id="portfolio" className={styles.container}>
-                <div class={styles.portfolioInfo}>
+                <div class={styles.portfolioTitle}>
                     <h2>
                         <span>Meu</span> Portfólio
                     </h2>

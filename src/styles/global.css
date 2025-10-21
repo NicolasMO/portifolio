@@ -4,6 +4,9 @@
     --secondary-color: rgb(125, 38, 190);
 
     --card-background: rgb(40, 26, 48);
+    --card-degrade-1: rgb(59, 39, 71);
+    --card-degrade-2: rgb(83, 54, 99);
+    --card-degrade-3: rgb(125, 81, 150);
     --card-hover: rgb(57, 16, 83);
 
     --icon-border-color: rgb(207, 172, 233);

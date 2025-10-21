@@ -13,9 +13,7 @@ function Header() {
                             <li><button className={styles.menuButton} onClick={() => document.getElementById('header-name').scrollIntoView({behavior: 'smooth'})}>home</button></li>
                             <li><button className={styles.menuButton} onClick={() => document.getElementById('about').scrollIntoView({behavior: 'smooth'})}>sobre</button></li>
                             <li><button className={styles.menuButton} onClick={() => document.getElementById('portfolio').scrollIntoView({behavior: 'smooth'})}>portfólio</button></li>
-                            <li>serviços</li>
-                            <li>resumo</li>
-                            <li>contato</li>
+                            <li><button className={styles.menuButton} onClick={() => document.getElementById('experience').scrollIntoView({behavior: 'smooth'})}>experiencias</button></li>
                         </ul>
                     </nav>
                 </div>
